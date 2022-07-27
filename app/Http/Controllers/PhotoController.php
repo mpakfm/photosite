@@ -50,6 +50,8 @@ class PhotoController extends Controller
             Log::debug('[PhotoController::store] $savePath', [$savePath]);
             $photo = new Photo();
             $photo->name = $request->input('photo-name');
+            $photo->sort = (int) $request->input('photo-sort');
+            $photo->published = (int) $request->input('photo-published');
             $photo->tag  = $request->input('photo-tag');
             $photo->path = $savePath;
             $photo->save();

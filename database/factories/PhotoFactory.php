@@ -15,9 +15,11 @@ class PhotoFactory extends Factory
     public function definition()
     {
         return [
-            'name' => null,
-            'path' => null,
-            'tag'  => null,
+            'name'      => null,
+            'sort'      => 500,
+            'published' => 1,
+            'path'      => null,
+            'tag'       => null,
         ];
     }
 }

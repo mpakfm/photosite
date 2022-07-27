@@ -10,7 +10,7 @@
 <x-umbrella-layout>
     <x-slot name="header">
         <div class="nk-layout">
-            <div class="nk-slider nk-slider-hide-titles" data-active-category="{{ $tag ?? '' }}" data-transition-speed="500" data-transition-effect="fade" data-category-transition-speed="500" data-category-transition-effect="top" data-autoplay="false" data-force-reload="fade">
+            <div class="nk-slider nk-slider-hide-titles" data-active-category="хаски" data-transition-speed="500" data-transition-effect="fade" data-category-transition-speed="500" data-category-transition-effect="top" data-autoplay="false" data-force-reload="fade">
                 @foreach ($photoList as $item)
                     <div class="nk-slider-item active" data-categories="{{ $item->tag }}" data-background-position="50% 40%">
                         <img src="assets/images/placeholder.svg" data-src="{{ Storage::url($item->path) }}" alt="" class="lazyload">

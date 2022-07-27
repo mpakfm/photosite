@@ -18,6 +18,8 @@ class Photo extends Model
      */
     protected $fillable = [
         'name',
+        'sort',
+        'published',
         'path',
         'tag',
     ];
