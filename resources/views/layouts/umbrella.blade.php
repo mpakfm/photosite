@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="assets/css/umbrella.min.css">
     <link rel="stylesheet" href="assets/css/custom.css">
     <script src="assets/vendor/jquery/dist/jquery.min.js"></script>
+    {{ $metrika }}
 </head>
 <body>
 
@@ -31,7 +32,7 @@
             <div class="nano-content">
                 <div class="nk-vertical-top">
                     <div>
-
+ЕЩЗ
                     </div>
                 </div>
             </div>
